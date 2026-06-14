@@ -104,7 +104,7 @@ function ContactPage() {
       </section>
 
       {/* Contact Section */}
-      <section className="bg-cream py-20 lg:py-28">
+      <section className="bg-cream py-12 lg:py-16">
         <div className="mx-auto max-w-7xl px-6 lg:px-8">
           <div className="grid gap-12 lg:grid-cols-5">
             {/* Contact Info */}
@@ -211,7 +211,7 @@ function ContactPage() {
             >
               <motion.div
                 variants={fadeInUp}
-                className="rounded-2xl border border-border bg-background p-8 shadow-lg sm:p-10"
+                className="rounded-2xl border border-border bg-background p-6 shadow-lg sm:p-8"
               >
                 {submitted ? (
                   <div className="flex flex-col items-center py-12 text-center">

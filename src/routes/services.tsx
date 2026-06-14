@@ -188,7 +188,7 @@ function ServicesPage() {
       </section>
 
       {/* Services Grid */}
-      <section className="bg-cream py-20 lg:py-28">
+      <section className="bg-cream py-12 lg:py-16">
         <div className="mx-auto max-w-7xl px-6 lg:px-8">
           <motion.div
             initial="hidden"
@@ -201,7 +201,7 @@ function ServicesPage() {
               <motion.div
                 key={service.title}
                 variants={fadeInUp}
-                className="rounded-2xl border border-border bg-background p-8 shadow-sm transition-all hover:shadow-lg"
+                className="rounded-2xl border border-border bg-background p-6 shadow-sm transition-all hover:shadow-lg"
               >
                 <div className="flex items-start gap-5">
                   <div className="flex h-12 w-12 shrink-0 items-center justify-center rounded-xl bg-accent/10 text-accent">
@@ -234,7 +234,7 @@ function ServicesPage() {
       </section>
 
       {/* Process */}
-      <section className="py-20 lg:py-28">
+      <section className="py-12 lg:py-16">
         <div className="mx-auto max-w-7xl px-6 lg:px-8">
           <motion.div
             initial="hidden"
@@ -268,7 +268,7 @@ function ServicesPage() {
             whileInView="visible"
             viewport={{ once: true, margin: "-50px" }}
             variants={staggerContainer}
-            className="mt-14 grid gap-8 sm:grid-cols-2 lg:grid-cols-4"
+            className="mt-10 grid gap-8 sm:grid-cols-2 lg:grid-cols-4"
           >
             {processSteps.map((step) => (
               <motion.div
@@ -292,7 +292,7 @@ function ServicesPage() {
       </section>
 
       {/* CTA */}
-      <section className="bg-cream py-20">
+      <section className="bg-cream py-12 lg:py-16">
         <motion.div
           initial="hidden"
           whileInView="visible"

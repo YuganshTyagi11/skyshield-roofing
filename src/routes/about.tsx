@@ -127,7 +127,7 @@ function AboutPage() {
       </section>
 
       {/* Story */}
-      <section className="bg-cream py-20 lg:py-28">
+      <section className="bg-cream py-12 lg:py-16">
         <div className="mx-auto max-w-7xl px-6 lg:px-8">
           <motion.div
             initial="hidden"
@@ -157,9 +157,9 @@ function AboutPage() {
             </motion.div>
             <motion.div
               variants={fadeInUp}
-              className="rounded-2xl border border-border bg-background p-10 shadow-sm"
+              className="rounded-2xl border border-border bg-background p-6 lg:p-8 shadow-sm"
             >
-              <div className="grid grid-cols-2 gap-8">
+              <div className="grid grid-cols-2 gap-6">
                 <div className="text-center">
                   <TrendingUp className="mx-auto h-8 w-8 text-accent" />
                   <p className="mt-3 font-display text-3xl font-bold text-foreground">
@@ -203,7 +203,7 @@ function AboutPage() {
       </section>
 
       {/* Values */}
-      <section className="py-20 lg:py-28">
+      <section className="py-12 lg:py-16">
         <div className="mx-auto max-w-7xl px-6 lg:px-8">
           <motion.div
             initial="hidden"
@@ -231,7 +231,7 @@ function AboutPage() {
             whileInView="visible"
             viewport={{ once: true, margin: "-50px" }}
             variants={staggerContainer}
-            className="mt-14 grid gap-8 md:grid-cols-3"
+            className="mt-10 grid gap-8 md:grid-cols-3"
           >
             {values.map((v) => (
               <motion.div
@@ -255,7 +255,7 @@ function AboutPage() {
       </section>
 
       {/* Timeline */}
-      <section className="bg-cream py-20 lg:py-28">
+      <section className="bg-cream py-12 lg:py-16">
         <div className="mx-auto max-w-4xl px-6 lg:px-8">
           <motion.div
             initial="hidden"
@@ -283,7 +283,7 @@ function AboutPage() {
             whileInView="visible"
             viewport={{ once: true }}
             variants={staggerContainer}
-            className="mt-14 space-y-8"
+            className="mt-10 space-y-8"
           >
             {milestones.map((m, i) => (
               <motion.div
@@ -313,7 +313,7 @@ function AboutPage() {
       </section>
 
       {/* Team */}
-      <section className="py-20 lg:py-28">
+      <section className="py-12 lg:py-16">
         <div className="mx-auto max-w-7xl px-6 lg:px-8">
           <motion.div
             initial="hidden"
@@ -341,7 +341,7 @@ function AboutPage() {
             whileInView="visible"
             viewport={{ once: true, margin: "-50px" }}
             variants={staggerContainer}
-            className="mt-14 grid gap-6 sm:grid-cols-2 lg:grid-cols-4"
+            className="mt-10 grid gap-6 sm:grid-cols-2 lg:grid-cols-4"
           >
             {team.map((member) => (
               <motion.div
@@ -368,14 +368,14 @@ function AboutPage() {
       </section>
 
       {/* Certifications */}
-      <section className="bg-cream py-20">
+      <section className="bg-cream py-12 lg:py-16">
         <div className="mx-auto max-w-7xl px-6 lg:px-8">
           <motion.div
             initial="hidden"
             whileInView="visible"
             viewport={{ once: true }}
             variants={staggerContainer}
-            className="rounded-2xl border border-border bg-background p-10 shadow-sm"
+            className="rounded-2xl border border-border bg-background p-6 lg:p-8 shadow-sm"
           >
             <motion.div variants={fadeInUp} className="text-center">
               <h2 className="font-display text-2xl font-bold text-foreground">
@@ -412,7 +412,7 @@ function AboutPage() {
       </section>
 
       {/* CTA */}
-      <section className="py-20">
+      <section className="py-12 lg:py-16">
         <motion.div
           initial="hidden"
           whileInView="visible"

@@ -108,14 +108,14 @@ function QuotePage() {
       </section>
 
       {/* Calculator */}
-      <section className="bg-cream py-20 lg:py-28">
+      <section className="bg-cream py-12 lg:py-16">
         <div className="mx-auto max-w-4xl px-6 lg:px-8">
           <motion.div
             initial="hidden"
             whileInView="visible"
             viewport={{ once: true }}
             variants={staggerContainer}
-            className="rounded-2xl border border-border bg-background p-8 shadow-lg sm:p-12"
+            className="rounded-2xl border border-border bg-background p-6 shadow-lg sm:p-8"
           >
             <motion.div
               variants={fadeInUp}
@@ -131,7 +131,7 @@ function QuotePage() {
 
             <motion.div
               variants={staggerContainer}
-              className="space-y-8"
+              className="space-y-6"
             >
               {/* Roof Type */}
               <motion.div variants={fadeInUp}>

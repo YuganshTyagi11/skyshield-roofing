@@ -75,7 +75,7 @@ function HomePage() {
 
 function HeroSection() {
   return (
-    <section className="relative -mt-20 flex min-h-[90vh] items-center overflow-hidden">
+    <section className="relative -mt-16 lg:-mt-20 flex min-h-[80vh] lg:min-h-[90vh] items-center overflow-hidden">
       {/* Background image */}
       <div className="absolute inset-0">
         <img
@@ -87,7 +87,7 @@ function HeroSection() {
       </div>
 
       {/* Content */}
-      <div className="relative z-10 mx-auto max-w-7xl px-6 pt-24 pb-16 lg:px-8">
+      <div className="relative z-10 mx-auto max-w-7xl px-4 lg:px-8 pt-20 pb-14 lg:pt-24 lg:pb-16">
         <motion.div
           initial="hidden"
           animate="visible"
@@ -249,7 +249,7 @@ const services = [
 
 function ServicesPreview() {
   return (
-    <section className="bg-cream py-20 lg:py-28">
+    <section className="bg-cream py-12 lg:py-16">
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
         <motion.div
           initial="hidden"
@@ -284,13 +284,13 @@ function ServicesPreview() {
           whileInView="visible"
           viewport={{ once: true, margin: "-50px" }}
           variants={staggerContainer}
-          className="mt-14 grid gap-6 sm:grid-cols-2 lg:grid-cols-3"
+          className="mt-8 grid gap-6 sm:grid-cols-2 lg:grid-cols-3"
         >
           {services.map((service) => (
             <motion.div
               key={service.title}
               variants={fadeInUp}
-              className="group rounded-2xl border border-border bg-background p-8 shadow-sm transition-all hover:shadow-lg"
+              className="group rounded-2xl border border-border bg-background p-6 shadow-sm transition-all hover:shadow-lg"
             >
               <div className="flex h-12 w-12 items-center justify-center rounded-xl bg-accent/10 text-accent transition-colors group-hover:bg-accent group-hover:text-accent-foreground">
                 <service.icon className="h-6 w-6" />
@@ -342,7 +342,7 @@ const featuredProjects = [
 
 function FeaturedProjects() {
   return (
-    <section className="py-20 lg:py-28">
+    <section className="py-12 lg:py-16">
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
         <motion.div
           initial="hidden"
@@ -456,7 +456,7 @@ const reasons = [
 
 function WhyChooseUs() {
   return (
-    <section className="bg-cream py-20 lg:py-28">
+    <section className="bg-cream py-12 lg:py-16">
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
         <motion.div
           initial="hidden"
@@ -491,7 +491,7 @@ function WhyChooseUs() {
           whileInView="visible"
           viewport={{ once: true, margin: "-50px" }}
           variants={staggerContainer}
-          className="mt-14 grid gap-8 sm:grid-cols-2 lg:grid-cols-4"
+          className="mt-10 grid gap-8 sm:grid-cols-2 lg:grid-cols-4"
         >
           {reasons.map((reason) => (
             <motion.div
@@ -543,7 +543,7 @@ const testimonials = [
 
 function Testimonials() {
   return (
-    <section className="py-20 lg:py-28">
+    <section className="py-12 lg:py-16">
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
         <motion.div
           initial="hidden"
@@ -571,7 +571,7 @@ function Testimonials() {
           whileInView="visible"
           viewport={{ once: true, margin: "-50px" }}
           variants={staggerContainer}
-          className="mt-14 grid gap-6 md:grid-cols-3"
+          className="mt-10 grid gap-6 md:grid-cols-3"
         >
           {testimonials.map((t) => (
             <motion.div
@@ -610,7 +610,7 @@ function Testimonials() {
 
 function CTASection() {
   return (
-    <section className="relative overflow-hidden bg-slate-dark py-20 lg:py-28">
+    <section className="relative overflow-hidden bg-slate-dark py-12 lg:py-16">
       <div className="absolute inset-0 opacity-5">
         <div className="h-full w-full bg-[radial-gradient(circle_at_30%_50%,var(--color-accent)_0%,transparent_50%)]" />
       </div>

@@ -132,7 +132,7 @@ function ProjectsPage() {
       </section>
 
       {/* Gallery */}
-      <section className="bg-cream py-20 lg:py-28">
+      <section className="bg-cream py-12 lg:py-16">
         <div className="mx-auto max-w-7xl px-6 lg:px-8">
           {/* Filter tabs */}
           <motion.div
@@ -214,7 +214,7 @@ function ProjectsPage() {
       </section>
 
       {/* CTA */}
-      <section className="py-20">
+      <section className="py-12 lg:py-16">
         <motion.div
           initial="hidden"
           whileInView="visible"
