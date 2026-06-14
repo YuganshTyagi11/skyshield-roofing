@@ -14,6 +14,7 @@ import {
   Award,
   Users,
   TrendingUp,
+  MapPin,
 } from "lucide-react";
 
 import heroImg from "@/assets/hero-home.jpg";
